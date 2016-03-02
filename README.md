@@ -1,2 +1,2 @@
 # CV
-some codes about computer vision
+some codes about computer vision. Using opencv
