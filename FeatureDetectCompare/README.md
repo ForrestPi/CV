@@ -1,6 +1,5 @@
 # SIFT,SURF,ORB,FAST feature detection comparison
 
-
 ---
 
 主要的特征检测方法有以下几种，在一般的图像处理库中（如opencv, VLFeat, Boofcv等）都会实现。
@@ -16,4 +15,4 @@
 * HARRIS,[Harris and M. Stephens (1988). "A combined corner and edge detector"](http://en.wikipedia.org/wiki/Corner_detection),也是一种角点检测方法
 
 
-###[Test Results](http://blog.csdn.net/vonzhoufz/article/details/46461849)
+###[Test Results](https://github.com/ForrestPi/ComputerVision-Project/blob/master/FeatureDetectCompare/result.md)
