@@ -1,6 +1,5 @@
 # Learning OpenCV !!
 
-
 ---
 
 ### 1. Feature Detecting Methods Compare
@@ -17,7 +16,7 @@
 * GFTT，[Good Features to Track,1994](http://docs.opencv.org/modules/imgproc/doc/feature_detection.html#shi94),Determines strong corners on an image
 * HARRIS,[Harris and M. Stephens (1988). "A combined corner and edge detector"](http://en.wikipedia.org/wiki/Corner_detection),也是一种角点检测方法
 
-[Test Results](http://blog.csdn.net/vonzhoufz/article/details/46594369)
+[Test Results](https://github.com/ForrestPi/ComputerVision-Project/blob/master/FeatureDetectCompare/result.md)
 
 
 ### 2.To See How Ratio impact the ORB Descriptors Matching.
@@ -26,13 +25,13 @@
 
 => ORB_match.cpp : **After the ratio test and symmetric test, the result is good, but with ORB the Jaccard similarity is low.(Q)**
 
-| ratio   |  image1 keypoints size    |  image2 keypoints size     |  Good matches1  |   Good matches2 | Better matches | 
-| --------  | :-----:    | :----:    |  :----:  | :----:  | :----:  | 
-|0.9  |  500 |   487 | 287    | 263    |176     |
-|0.85  |  500 |   487 | 237    | 218    |157     |
-|0.8  |  500 |   487 | 209    | 192    |144     |
-|0.75  |  500 |   487 | 170    | 160    |120     |
-|0.65  |  500 |   487 | 113    | 106    |76     |
+| ratio | image1 keypoints size | image2 keypoints size | Good matches1 | Good matches2 | Better matches |
+| ----- | :-------------------: | :-------------------: | :-----------: | :-----------: | :------------: |
+| 0.9   |          500          |          487          |      287      |      263      |      176       |
+| 0.85  |          500          |          487          |      237      |      218      |      157       |
+| 0.8   |          500          |          487          |      209      |      192      |      144       |
+| 0.75  |          500          |          487          |      170      |      160      |      120       |
+| 0.65  |          500          |          487          |      113      |      106      |       76       |
 
 **So, You can see the trend!**
 
@@ -45,7 +44,7 @@
 
 1. [500 features with ratio 0.9](test_log_500_0.9.md)
 
-1. [1000 features with ratio 0.8](test_log_1000_0.8.md)
+2. [1000 features with ratio 0.8](test_log_1000_0.8.md)
 
 
 
@@ -90,7 +89,7 @@
 ==>[demo](tutorial/)
 
 
-### 9. My Blog is Here [vonzhou](http://blog.csdn.net/vonzhoufz).
+### 
 
 
 
